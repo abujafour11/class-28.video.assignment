@@ -1,0 +1,246 @@
+@media (max-width: 1400px) {
+  .mid-content {
+    padding-right: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+  .default-input {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .primary-menu ul li a {
+    padding: 0px 5px;
+    font-size: 16px;
+  }
+  .header-logo span {
+    font-size: 20px;
+  }
+  .header-btn {
+    padding: 10px 26px;
+  }
+  .right-content h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .p-content ul li {
+    margin: 27px 0;
+    font-size: 17px;
+  }
+  .p-content ul li span {
+    font-size: 20px;
+    width: 35px;
+  }
+  .p-content ul li {
+    font-size: 16px;
+  }
+  .p-heading p {
+    font-size: 14px;
+  }
+}
+
+.primary-menu span {
+  display: none;
+}
+
+/* ===992px==== */
+@media (max-width: 992px) {
+  .header-logo {
+    width: 100%;
+    text-align: center;
+  }
+  .header-logo img {
+    float: inherit;
+  }
+  .header-logo span {
+    position: relative;
+    top: -17px;
+  }
+  .primary-menu ul {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+  }
+  .header-button {
+    width: 200px;
+    text-align: right;
+    position: absolute;
+    right: 20px;
+    top: 46px;
+  }
+  .primary-menu span {
+    font-size: 35px;
+    color: blue;
+    cursor: pointer;
+    display: block;
+  }
+  .section-tittle h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .service-box {
+    width: 48%;
+  }
+  .service-box:nth-child(3n + 3) {
+    margin-right: 20px;
+  }
+  .service-box:nth-child(2n + 2) {
+    margin-right: 0;
+  }
+  .section-tittle h2 {
+    font-size: 45px;
+  }
+  .section-tittle p {
+    font-size: 20px;
+  }
+  .pricing-table-item {
+    width: 100%;
+  }
+  .member {
+    width: 48%;
+    margin-right: 2%;
+    margin-bottom: 30px;
+  }
+  .blog-post-item img {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .blog-post-item {
+    padding: 30px;
+    box-sizing: border-box;
+  }
+}
+
+/* =====768=== ===*/
+
+@media (max-width: 768px) {
+  .banner-content h3 {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  .banner-content h2 {
+    font-size: 45px;
+    margin-top: 17px;
+  }
+  .default-btn {
+    padding: 13px 20px;
+    font-size: 18px;
+  }
+  .left-video {
+    width: 100%;
+  }
+  .right-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .right-content h3 {
+    font-size: 32px;
+    margin-top: 20px;
+  }
+  .right-content p {
+    font-size: 18px;
+  }
+  .header-section {
+    position: relative;
+    padding: 96px 0;
+  }
+  .section-tittle h1 {
+    font-size: 37px;
+    font-weight: 400;
+  }
+  .section-tittle p {
+    font-size: 20px;
+  }
+  .service-box {
+    width: 100%;
+  }
+  .service-box:nth-child(3n + 3) {
+    margin-right: 20px;
+  }
+  .service-box:nth-child(2n + 2) {
+    margin-right: 0;
+  }
+  .service-box:nth-child(1n + 1) {
+    margin-right: 20px;
+  }
+  .team-section .section-tittle h2 {
+    font-size: 32px;
+  }
+  .default-input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .t-items {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .content-left-map {
+    width: 100%;
+  }
+  .content-right-form {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .default-input {
+    width: 50%;
+  }
+  .submit-btn {
+    padding: 10px 50px;
+  }
+  .header-button {
+    right: 15px;
+    top: 60px;
+  }
+  .header-section {
+    position: relative;
+    padding: 20px 0 5px;
+  }
+}
+
+/*===== 568px==== */
+
+@media (max-width: 568px) {
+  .banner-content h2 {
+    font-size: 37px;
+  }
+  .banner-content h3 {
+    font-size: 20px;
+  }
+  .default-btn {
+    padding: 14px 73px;
+    margin-top: 16px;
+  }
+  .banner-section {
+    padding: 140px 0;
+  }
+  .banner-bottom {
+    padding: 60px 0;
+  }
+  .member {
+    width: 100%;
+  }
+  .newslatter-section {
+    padding: 60px 0;
+  }
+  .b-heading h2 {
+    font-size: 32px;
+    font-weight: 400;
+  }
+  .b-content {
+    width: 100%;
+  }
+  .b-content p {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .blog-post-item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .header-button {
+    right: 15px;
+    top: 60px;
+  }
+}
